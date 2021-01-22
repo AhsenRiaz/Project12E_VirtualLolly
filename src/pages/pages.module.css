@@ -146,6 +146,9 @@
   background: black;
   letter-spacing: 2px;
   box-shadow: 1px 3px 10px black;
+  min-height: 4rem;
+  max-height: 3rem;
+
 }
 
 .newLolly_card {
@@ -265,3 +268,11 @@
 }
 
 }
+
+@media (max-width:600px){
+.newLolly_link{
+  overflow: scroll;
+  overflow-y: hidden;
+}
+}
+

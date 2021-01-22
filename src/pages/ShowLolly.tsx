@@ -31,7 +31,6 @@ const GET_LOLLIES = gql `
 const ShowLolly =   (props) => {
     const id = props.location.search
     const newId = id.slice(4)
-    console.log("NewId" , newId)
 
     const {loading , error , data} = useQuery(GET_LOLLIES , {
         variables :{
@@ -40,7 +39,6 @@ const ShowLolly =   (props) => {
 
     })
 
-    console.log("SHOW_LOLLY" , data)
 
 
     return (
@@ -67,13 +65,13 @@ const ShowLolly =   (props) => {
                                 </div>
                                </Grid>
 
-                               <Grid item lg = {6} md = {12} sm = {12} >
+                               <Grid item lg = {6} md = {12} sm = {12} xs = {12} >
                                    <div className = {style.newLolly_form} >
                                        <div className = {style.newLolly_heading} >
                                            <p>Your lolly is freezing. Share it with this link</p>
                                        </div>
                                        <div className = {style.newLolly_link} >
-                                           <p>https://ShowLolly/{data.getLolly.lollyPath}</p>
+                                           <p>{props.location.origin}/ShowLolly/{data.getLolly.lollyPath}</p>
                                        </div>
                                        <div className = {style.newLolly_card} >
                                            <div className = {style.newLolly_from} >

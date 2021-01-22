@@ -33,8 +33,6 @@ const resolvers = {
     addLolly : async (_ , args) => {
       try {
         const client = new faunadb.Client({secret : process.env.FAUNADB_SECRET_KEY});
-        console.log("connection established");
-        console.log(args)
         const id = shortid.generate();
         args.lollyPath = id
 
@@ -62,7 +60,6 @@ const resolvers = {
          const result = await client.query(
           q.Get(q.Match(q.Index("lollies_by_path") , lollyPath ))
          )
-          console.log("GETlOLLY result | " , result.data )
         
           return result.data
         }

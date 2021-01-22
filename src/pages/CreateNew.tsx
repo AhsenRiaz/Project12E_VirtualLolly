@@ -54,17 +54,8 @@ const CreateNew = () => {
         }
         )
 
-        console.log(`result from server ${result.data.addLolly.lollyPath}`)
-        console.log(`result from server ${result.data.addLolly.senderName}`)
-
-
-
 
         navigate(`/ShowLolly?id=${result.data.addLolly.lollyPath}`)
-
-
-
-
 
     }
 
