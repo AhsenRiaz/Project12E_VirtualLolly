@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Yellowtail&display=swap");
+.createNew_heading {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+#field_color {
+  color: white;
+}
+
+.createNew_flavours {
+  height: 90vh;;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  display: flex;
+  justify-content: center;
+}
+
+.createNew_form {
+  height: 100%;
+  margin-bottom: 3rem;
+}
+
+.createNew_card {
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 7rem;
+  box-shadow: 0px 0px 12px rgb(238, 114, 238);
+  padding: 2rem 1rem;
+  background-color: #680699;
+  border-radius: 6px;
+}
+
+.createNew_flavourMiddle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 20px;
+  overflow: hidden;
+  /* border: 2px solid white; */
+  /* box-shadow: 1px 0px 17px green ; */
+}
+
+.createNew_flavourMiddle input {
+  width: 80px !important;
+  height: 80px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+.createNew_flavourContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  top: -36px;
+
+}
+
+.createNew_textField {
+  margin-top: 0.5rem !important;
+}
+
+.createNew_card label {
+  font-size: 15px;
+  color: rgb(168, 168, 168);
+}
+.createNew_card span {
+  color: rgb(255, 16, 235);
+}
+
+.MuiOutlinedInput-input {
+  color: white !important;
+}
+
+.createNew_FieldComment {
+  margin-top: 1.3rem;
+}
+
+.createNew_FieldComment span {
+  padding-bottom: 0.6rem !important;
+}
+
+.createNew_FieldFrom {
+  margin-top: 1rem;
+}
+
+.createNew_button {
+  text-align: center;
+  margin-top: 2.4rem;
+}
+
+.createNew_button button {
+  background-color: transparent;
+  padding: 1rem 2rem;
+  color: #ce15b2;
+  border: 2px solid #c46eb7;
+  box-shadow: 0px 0px 12px #ca38b4;
+  border-radius: 25px;
+  transition: 0.4s all;
+  cursor: pointer;
+  outline: none !important;
+}
+
+.createNew_button button:hover {
+  background-color: #c936b3;
+  box-shadow: 0px 0px 16px #f11fd2;
+  color: black;
+}
+
+/* SHOW LOLLY */
+.newLolly_grid {
+  /* border: 2px solid red; */
+  height: 96vh;
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+.newLolly_showlolly {
+  text-align: center;
+  width: 100%;
+}
+
+.newLolly_heading {
+  /* font-weight: 400; */
+  font-size: 16px;
+  color: rgb(255, 0, 85);
+  font-family: "Poppins";
+  text-align: center;
+  border: 1px solid pink;
+}
+
+.newLolly_link {
+  margin-top: 1rem;
+  font-size: 16px;
+  color: rgb(255, 125, 168);
+  font-family: "Poppins";
+  /* border: 1px solid rgb(230, 32, 248); */
+  padding: 0.2rem 0.3rem;
+  text-align: center;
+  background: black;
+  letter-spacing: 2px;
+  box-shadow: 1px 3px 10px black;
+}
+
+.newLolly_card {
+  /* border: 1px solid black; */
+  margin-top: 1.5rem;
+  padding: 1rem 0rem;
+  box-shadow: 0px 0px 6px black;
+}
+
+.newLolly_from,
+.newLolly_message,
+.newLolly_to {
+  padding: 0 1rem;
+}
+
+.newLolly_from p {
+  font-family: "Yellowtail";
+  font-size: 30px;
+  color: white;
+  letter-spacing: 4px;
+  font-weight: 200;
+  /* box-shadow: 0px 0px 6px white; */
+  padding: 3px 0px;
+  padding-left: 1rem;
+
+  border: 1px solid rgb(71, 71, 71);
+  border-radius: 4px;
+}
+
+.newLolly_message p {
+  font-family: "Poppins";
+  font-size: 16px;
+  color: white;
+  font-weight: 200;
+  padding: 1rem;
+  border: 1px solid rgb(71, 71, 71);
+  border-radius: 4px;
+  font-style: oblique;
+}
+
+.newLolly_to p {
+  font-family: "Yellowtail";
+  font-size: 22px;
+  color: white;
+  letter-spacing: 4px;
+  font-weight: 200;
+  /* box-shadow: 0px 0px 6px white; */
+  padding: 3px 0px;
+  padding-left: 4rem;
+
+  border: 1px solid rgb(71, 71, 71);
+  border-radius: 4px;
+}
+
+.newLolly_footer{
+  text-align: center;
+  font-size: 13px;
+  font-family: "Poppins";
+  font-weight: 200;
+  color: white;
+}
+
+/* @media (max-width:1280px){
+  .newLolly_showlolly{
+    margin-top: 24rem;
+  }
+} */
+
+.newLolly_header p{
+  font-family: "Yellowtail";
+  letter-spacing: 6px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  text-shadow: 0px 0px 30px #934a89;
+  transition: 0.3s all;
+  
+}
+
+
+.newLolly_header p:hover{
+  text-shadow: 0px 0px 30px #934a89;
+  font-size: 60px;
+  text-shadow: 0px 0px 40px rgb(255, 7, 255);
+}
+
+.createNew_heading p{
+  text-shadow: 0px 0px 30px #934a89;
+  font-size: 50px;
+  text-shadow: 0px 0px 40px rgb(255, 7, 255);
+  font-family: "Yellowtail";
+  color: white;
+  letter-spacing: 4px;
+}
+
+.createNew_subHeading{
+  font-size: 16px;
+  text-align: center;
+  font-family: "Poppins";
+  color: white;
+}
+
+@media (max-width:400px){
+
+.createNew_flavours{
+  display: flex;
+  flex-direction: column;
+}
+
+.createNew_flavourContainer{
+  flex-direction: row;
+}
+.createNew_flavourContainer{
+  height: 5rem !important;
+  padding-bottom: 0px;
+  margin-top: 3rem;
+}
+
+}
