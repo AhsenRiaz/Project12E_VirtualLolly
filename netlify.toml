@@ -1,7 +1,11 @@
-[build]
-    command="gatsby build"
-    publish="public/"
-    functions="functions/"
-
-[[plugins]]
-   package = "@netlify/plugin-functions-install-core"
+ build:
+     command: gatsby build
+     commandOrigin: config
+     environment:
+       - FAUNADB_SECRET_KEY
+     functions: /opt/build/repo/functions
+     publish: /opt/build/repo/public
+   plugins:
+     - inputs: {}
+       origin: config
+       package: '@netlify/plugin-functions-install-core'
